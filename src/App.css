@@ -1,0 +1,40 @@
+.App {
+  text-align: center;
+  height: 50vh;
+  width: 50vh;
+  
+}
+
+ .Card{
+  text-align: center;
+  height: 40vh;
+  width: 30vw;
+  text-align: center;
+  background-color: #8c8cf5;
+  color: black;
+  margin-top:0.5rem;
+  /* border: 5px solid black; */
+
+} 
+.CardRow1{
+  display:flex;
+  gap:10rem;
+  margin-left:15rem;
+  margin-bottom: 5rem;
+  /* border:5px solid black;  */
+}
+
+.CardRow2{
+  display:flex;
+  margin-left:15rem;
+  gap:10rem;
+}
+body{
+  background-size: cover;
+  background-color: #FBDA61;
+  background-image: linear-gradient(45deg, #FBDA61 0%, #FF5ACD 100%);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+
+
+}
